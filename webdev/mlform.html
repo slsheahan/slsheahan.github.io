@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<base href="https://slsheahan.github.io/" target="_self">
+<head>
+    <title>Spencer Sheahan's Webpage</title>
+</head>
+
+<!--An attempt to create basic navigation around the site-->
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>LazAR</li>
+            <li>Funky Bot</li>
+            <li><a href="webdev/home.html">Spencer Sheahan's Website</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <object data="https://www.youtube.com/embed/kM9Wuzj4k24" width="480"></object>
+
+    <form name="madlibs" target="_self" action="webdev/madlibs.html" method="get" oninput="output.value=story.value">
+        <fieldset>
+            <legend>Story</legend>
+            <select name="story">
+                    <optgroup label="Original">
+                        <option value="1" selected>Story 1</option>
+                    </optgroup>
+                    <optgroup label="Famous Passages">
+                        <option value="2">Story 2</option>
+                        <option value="3">Story 3</option>
+                    </optgroup>
+
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Nouns</legend>
+            <p><label>Noun: </label><input name="noun1" type="text"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Verbs</legend>
+            <p><label>Verb: </label><input name="verb1" type="text"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Adjectives</legend>
+            <p><label>Adjective: </label><input name="adj1" type="text"></p>
+        </fieldset>
+        <p>
+            Story chosen is <strong>Madlibs #<output name="output">1</output></strong>
+        </p>
+    </form>
+</body>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
