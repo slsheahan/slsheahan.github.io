@@ -18,9 +18,9 @@
 </header>
 
 <body>
-    <object data="https://www.youtube.com/embed/kM9Wuzj4k24" width="480"></object>
+    <object data="https://www.youtube.com/embed/kM9Wuzj4k24" width="480" height="288"></object>
 
-    <form name="madlibs" target="_self" action="webdev/madlibs.html" method="get" oninput="output.value=story.value">
+    <form id="madlibs" name="madlibs" target="_blank" action="webdev/madlibs/1" method="get" oninput="output.value=story.value">
         <fieldset>
             <legend>Story</legend>
             <select name="story">
@@ -50,6 +50,9 @@
             Story chosen is <strong>Madlibs #<output name="output">1</output></strong>
         </p>
     </form>
+    <!--Will need to implement a javascript element to make this go anywhere but hard coded output-->
+    <button type="submit" form="madlibs">Generate MadLib</button>
+    <br>
 </body>
 
 <footer>
