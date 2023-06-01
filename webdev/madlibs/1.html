@@ -4,5 +4,23 @@
 <head>
     <title>Spencer Sheahan's Webpage</title>
 </head>
-<p>Welcome to the big boy form</p>
+<script language="javascript" type="text/javascript">
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const noun1 = urlParams.get('noun1')
+    const verb1 = urlParams.get('verb1')
+    const adj1 = urlParams.get('adj1')
+</script>
+<noscript>
+    <p>Browser must have javascript capability to load correctly</p>
+</noscript>
+<p>Two roads diverged in a
+    <u>
+        <script language="javascript" type="text/javascript">
+            document.write(noun1)
+        </script>
+    </u>
+    , and I—
+    I took the one less traveled by,
+    And that has made all the difference.</p>
 </html>
