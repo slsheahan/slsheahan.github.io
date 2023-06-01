@@ -6,15 +6,6 @@
 </head>
 <body>
     <script language="javascript" type="text/javascript">
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const name1 = urlParams.get('name1')
-        const obj1 = urlParams.get('obj1')
-        const obj1 = urlParams.get('obj2')
-        const verb1 = urlParams.get('verb1')
-        const verb2 = urlParams.get('verb2')
-        const adj1 = urlParams.get('adj1')
-        const emo1 = urlParams.get('emo1')
     </script>
     <noscript>
         <p>Browser must have javascript capability to load correctly</p>
@@ -32,6 +23,7 @@
     <p>People who don’t appreciate the gift of
         <u>
             <script language="javascript" type="text/javascript">
+                const obj1 = URLSearchParams(location.search).get('obj1')
                 document.write(obj1)
             </script>
         </u>
@@ -41,12 +33,14 @@
         If only I could
         <u>
             <script language="javascript" type="text/javascript">
+                const verb1 = URLSearchParams(location.search).get('verb1')
                 document.write(verb1)
             </script>
         </u>
         a
         <u>
             <script language="javascript" type="text/javascript">
+                const obj2 = URLSearchParams(location.search).get('obj2')
                 document.write(obj2)
             </script>
         </u>
@@ -57,11 +51,13 @@
         If only I got a
         <u>
             <script language="javascript" type="text/javascript">
+                const adj1 = URLSearchParams(location.search).get('adj1')
                 document.write(adj1)
             </script>
         </u>
         <u>
             <script language="javascript" type="text/javascript">
+                const verb2 = URLSearchParams(location.search).get('verb2')
                 document.write(verb2)
             </script>
         </u>
@@ -70,6 +66,7 @@
         Then I would be
         <u>
             <script language="javascript" type="text/javascript">
+                const emo1 = URLSearchParams(location.search).get('emo1')
                 document.write(emo1)
             </script>
         </u>
