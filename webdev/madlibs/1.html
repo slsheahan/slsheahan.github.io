@@ -24,7 +24,10 @@
     <p>People who don’t appreciate the gift of
         <u>
             <script language="javascript" type="text/javascript">
-                const obj1 = URLSearchParams(window.location.search).get('obj1');
+                document.write("GENIUS")
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                const obj1 = urlParams.get('obj1');
                 document.write(obj1);
             </script>
             <noscript>life</noscript>
