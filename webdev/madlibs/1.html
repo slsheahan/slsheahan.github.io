@@ -23,24 +23,11 @@
         , there are far too many people like you in the world.  </p>
     <p>People who don’t appreciate the gift of
         <u>
-            <!--obj1-->
             <script language="javascript" type="text/javascript">
-                const queryString = window.location.search;
-                const urlParams = new URLSearchParams(queryString);
-                const name1 = urlParams.get('name1');
-                document.write(name1);
-            </script>
-            <noscript>Duncan</noscript>
-            <!--
-            <script language="javascript" type="text/javascript">
-                document.write("GENIUS")
-                const queryString = window.location.search;
-                const urlParams = new URLSearchParams(queryString);
-                const obj1 = urlParams.get('obj1');
+                const obj1 = new URLSearchParams(location.search).get('obj1')
                 document.write(obj1);
             </script>
             <noscript>life</noscript>
-            -->
         </u>
         .  Who are unhappy with their current situation.  Who wish that they could be somebody else.  Who just need one thing to go their way.
     </p>
@@ -50,7 +37,7 @@
             <script language="javascript" type="text/javascript">
                 const queryString = window.location.search;
                 const urlParams = new URLSearchParams(queryString);
-                const verb1 = urlParams.get('verb1');
+                const verb1 = new URLSearchParams(location.search).get('verb1')
                 document.write(verb1);
             </script>
             <noscript>find</noscript>
@@ -58,7 +45,7 @@
         a
         <u>
             <script language="javascript" type="text/javascript">
-                const obj2 = URLSearchParams(location.search).get('obj2')
+                const obj2 = new URLSearchParams(location.search).get('obj2')
                 document.write(obj2)
             </script>
             <noscript>girlfriend</noscript>
@@ -70,14 +57,14 @@
         If only I got a
         <u>
             <script language="javascript" type="text/javascript">
-                const adj1 = URLSearchParams(location.search).get('adj1')
+                const adj1 = new URLSearchParams(location.search).get('adj1')
                 document.write(adj1)
             </script>
             <noscript>good</noscript>
         </u>
         <u>
             <script language="javascript" type="text/javascript">
-                const verb2 = URLSearchParams(location.search).get('verb2')
+                const verb2 = (new URLSearchParams(location.search)).get('verb2')
                 document.write(verb2)
             </script>
             <noscript>job</noscript>
@@ -87,7 +74,7 @@
         Then I would be
         <u>
             <script language="javascript" type="text/javascript">
-                const emo1 = URLSearchParams(location.search).get('emo1')
+                const emo1 = new URLSearchParams(location.search).get('emo1')
                 document.write(emo1)
             </script>
             <noscript>happy</noscript>
