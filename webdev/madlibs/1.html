@@ -22,6 +22,9 @@
     <p>You see,
         <u>
             <script language="javascript" type="text/javascript">
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                const name1 = urlParams.get('name1')
                 document.write(name1)
             </script>
         </u>
