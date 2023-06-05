@@ -26,7 +26,47 @@
             <li><strong>strong</strong> has more meaning than <b>b</b></li>
             <li><em>em</em> has more meaning than <i>i</i></li>
             <li>Line breaks (br)<br> act differently than thematic breaks (hr)<hr> do</li>
-			<li>Form Input Text<form><input type="text" name="inputtext"></form> is different than <br> Textarea <textarea maxlength="100" rows="5" cols="30">Textarea</textarea><li>
+			<li>Form Input Text
+                <form>
+                    <input type="text" name="inputtext">
+                </form> is different than
+                <br>
+                Textarea
+                <form>
+                    <textarea maxlength="100" rows="5" cols="30">Textarea</textarea>
+                </form>
+            </li>
+            <li>A table with rowspan != 1
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Rowspan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th rowspan="2">Footer</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+                Is different from a table with colspan != 1
+                <table>
+                    <tr>
+                        <th colspan="2">Colspan</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </li>
         </ol>
     </body>
 
