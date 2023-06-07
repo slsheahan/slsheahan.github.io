@@ -1,6 +1,6 @@
-body.header {background-color:blue
-        text-color:white}
-body {background-color:red
-      text-color:blue}
-body.footer{background-color:white
-       text-color:red}
+header {background-color:blue;
+        text-color:white;}
+body {background-color:red;
+      text-color:blue;}
+footer{background-color:white;
+       text-color:red;}
