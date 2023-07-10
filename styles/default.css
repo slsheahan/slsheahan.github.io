@@ -1,27 +1,33 @@
 header {background-color:#9CD3D3;
        text-color:#1A181B;
-       border: 3px solid #564D65;
+       border: 3px solid #7F6A93;
 	font-family:Optima;
         }
-header li{
+header,footer li{
     float:left
 }
-header ul{
+header,footer ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-header li a {
+header,footer li a {
     display:block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-header li a:hover{
+header,footer li a:hover{
     background-color: #56B3B3;
+}
+header,footer li a:link, a:visited, a:hover, a:active {
+	color:#56B3B3;
+}
+
+header,footer li a:hover{
+    background-color: #7F6A93;
 }
 
 body {background-color:#F3EFE0;
