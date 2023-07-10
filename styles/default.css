@@ -1,10 +1,12 @@
-header {background-color:blue;
-        text-color:#1A181B;
-        border: 3px solid #564D65
+header {background-color:#9CD3D3;
+       text-color:#1A181B;
+       border: 3px solid #564D65;
+	font-family:Optima;
         }
 body {background-color:#F3EFE0;
       text-color:#1A181B;
       font-family:Optima;}
-footer{background-color:#3E8989;
+footer{background-color:#9CD3D3;
        text-color:#1A181B;
-       border: 3px solid #564D65}
+       border: 3px solid #564D65;
+	font-family:Optima;}
