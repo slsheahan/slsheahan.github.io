@@ -1,6 +1,6 @@
 header {background-color:#9CD3D3;
        text-color:#1A181B;
-       border: 3px solid #7F6A93;
+       border: 3px solid #564D65;
 	font-family:Optima;
         }
 header li{
@@ -20,13 +20,10 @@ header li a {
     text-decoration: none;
 }
 header li a:hover{
-    background-color: #56B3B3;
+    background-color: #4CA9A9;
 }
 header li a:link, a:visited, a:hover, a:active {
-	color:#56B3B3;
-}
-header li a:hover{
-    background-color: #7F6A93;
+	color:#564D65;
 }
 
 body {background-color:#F3EFE0;
@@ -53,11 +50,8 @@ footer li a {
     text-decoration: none;
 }
 footer li a:hover{
-    background-color: #56B3B3;
+    background-color: #4CA9A9;
 }
 footer li a:link, a:visited, a:hover, a:active {
-	color:#56B3B3;
+	color:#564D65;
 }
-
-footer li a:hover{
-    background-color: #7F6A93;
