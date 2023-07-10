@@ -3,30 +3,29 @@ header {background-color:#9CD3D3;
        border: 3px solid #7F6A93;
 	font-family:Optima;
         }
-header,footer li{
+header li{
     float:left
 }
-header,footer ul{
+header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-header,footer li a {
+header li a {
     display:block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-header,footer li a:hover{
+header li a:hover{
     background-color: #56B3B3;
 }
-header,footer li a:link, a:visited, a:hover, a:active {
+header li a:link, a:visited, a:hover, a:active {
 	color:#56B3B3;
 }
-
-header,footer li a:hover{
+header li a:hover{
     background-color: #7F6A93;
 }
 
@@ -37,3 +36,28 @@ footer{background-color:#9CD3D3;
        text-color:#1A181B;
        border: 3px solid #564D65;
 	font-family:Optima;}
+footer li{
+    float:left
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li a {
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer li a:hover{
+    background-color: #56B3B3;
+}
+footer li a:link, a:visited, a:hover, a:active {
+	color:#56B3B3;
+}
+
+footer li a:hover{
+    background-color: #7F6A93;
