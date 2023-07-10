@@ -1,8 +1,10 @@
 header {background-color:blue;
-        text-color:white;
+        text-color:#1A181B;
+        border: 3px solid #564D65
         }
 body {background-color:#F3EFE0;
-      text-color:black;
-      font-family: Optima;}
-footer{background-color:white;
-       text-color:red;}
+      text-color:#1A181B;
+      font-family:Optima;}
+footer{background-color:#3E8989;
+       text-color:#1A181B;
+       border: 3px solid #564D65}
