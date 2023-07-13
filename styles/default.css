@@ -41,13 +41,13 @@ body {background-color:#F3EFE0;
       margin-left: 10%;}
 
 
-div [name="left"]{
+div[name="left"]{
     width: 50%;
     display:flex;
     border: 5px solid left;
 }
 
-div [name="right"] {
+div[name="right"] {
     width: 50%;
     margin-left: 50%;
     display:flex;
