@@ -45,14 +45,14 @@ body {background-color:#F3EFE0;
 }
 
 .left{
-    width: 50%;
+    width: 35%;
     border: 5px solid black;
 }
 
 .right {
-    width: 50%;
-    margin-left: 50%;
-    border: 5px solid black right;
+    width: 35%;
+    margin-left: 35%;
+    border: 5px solid black;
 }
 
 footer{background-color:#9CD3D3;
