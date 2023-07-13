@@ -2,6 +2,9 @@ header {background-color:#9CD3D3;
        text-color:#1A181B;
        border: 3px solid #564D65;
 	font-family:Optima;
+      margin-right: 15%;
+      margin-left: 15%;
+      align-items:center;
         }
 header li{
     float:left
@@ -26,13 +29,33 @@ header li a:link, a:visited, a:hover, a:active {
 	color:#564D65;
 }
 
+
+
 body {background-color:#F3EFE0;
       text-color:#1A181B;
-      font-family:Optima;}
+      font-family:Optima;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 10%;
+      margin-left: 10%;}
+
+
+div [name="left"]{
+    width: 50%;
+}
+
+div [name="right"] {
+    width: 50%;
+    margin-left: 50%;
+}
+
 footer{background-color:#9CD3D3;
        text-color:#1A181B;
        border: 3px solid #564D65;
-	font-family:Optima;}
+	font-family:Optima;
+      margin-right: 20%;
+      margin-left: 20%;
+      align-items:center;}
 footer li{
     float:left
 }
