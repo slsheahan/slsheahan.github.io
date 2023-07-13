@@ -47,14 +47,14 @@ body {background-color:#F3EFE0;
 }
 
 .left{
-    width: 35%;
+    width: 30%;
     justify-content:center;
     align-text:center;
 }
 
 .right {
-    width: 35%;
-    margin-left: 35%;
+    width: 30%;
+    margin-left: 10%;
     align-text:center;
 }
 
