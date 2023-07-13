@@ -40,18 +40,19 @@ body {background-color:#F3EFE0;
       margin-right: 10%;
       margin-left: 10%;}
 
-
-div[name="left"]{
-    width: 50%;
+.flex-container{
     display:flex;
-    border: 5px solid left;
 }
 
-div[name="right"] {
+.left{
+    width: 50%;
+    border: 5px solid black;
+}
+
+.right {
     width: 50%;
     margin-left: 50%;
-    display:flex;
-    border: 5px solid right;
+    border: 5px solid black right;
 }
 
 footer{background-color:#9CD3D3;
