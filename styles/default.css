@@ -43,12 +43,14 @@ body {background-color:#F3EFE0;
 div [name="left"]{
     width: 50%;
     display:flex;
+    border: 5px solid left;
 }
 
 div [name="right"] {
     width: 50%;
     margin-left: 50%;
     display:flex;
+    border: 5px solid right;
 }
 
 footer{background-color:#9CD3D3;
