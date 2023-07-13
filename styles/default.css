@@ -47,14 +47,22 @@ body {background-color:#F3EFE0;
 }
 
 .left{
-    width: 30%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
     justify-content:center;
     align-text:center;
+    border-right: 5px solid black;
 }
 
 .right {
-    width: 30%;
-    margin-left: 10%;
+    width: 40%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     align-text:center;
 }
 
