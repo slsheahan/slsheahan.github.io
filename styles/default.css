@@ -1,7 +1,7 @@
 header {background-color:#D5ECEC;
        text-color:#1A181B;
        border: 3px solid #564D65;
-	font-family:Optima;
+	font-family:Optima, Georgia, Serif;
       margin-right: 15%;
       margin-left: 15%;
       align-items:center;
@@ -34,7 +34,7 @@ header li a:link, a:visited, a:hover, a:active {
 
 body {background-color:#F3EFE0;
       text-color:#1A181B;
-      font-family:Optima;
+      font-family:Optima, Georgia, Serif;
       margin-top: 50px;
       margin-bottom: 50px;
       margin-right: 10%;
@@ -69,7 +69,7 @@ body {background-color:#F3EFE0;
 footer{background-color:#D5ECEC;
        text-color:#1A181B;
        border: 3px solid #564D65;
-	font-family:Optima;
+	font-family:Optima, Georgia, Serif;
       margin-right: 20%;
       margin-left: 20%;
       align-items:center;
